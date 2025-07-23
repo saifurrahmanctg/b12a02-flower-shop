@@ -1,0 +1,19 @@
+/*Media Queries for responsive design8?*/
+@media screen and (max-width: 576px) {
+  .nav-links ul {
+    display: none;
+  }
+
+  .nav-links ul li {
+    margin: 10px 0;
+  }
+
+  .banner {
+    flex-direction: column-reverse;
+    padding: 0;
+  }
+  .banner-image img {
+    width: 100%;
+    height: auto;
+  }
+}
