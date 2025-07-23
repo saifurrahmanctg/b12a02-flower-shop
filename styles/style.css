@@ -70,6 +70,7 @@ nav img {
 }
 .banner-text {
   max-width: 36rem;
+  padding: 0 1.2rem;
 }
 .banner-text h1 {
   font-size: 4rem;
@@ -85,4 +86,54 @@ nav img {
 .banner-image img {
   width: auto;
   height: auto;
+}
+/* Plant section styling*/
+
+.plants {
+  margin-top: 7.5rem;
+}
+.plants-text {
+  text-align: center;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+.plants-text h2 {
+  font-size: 3.125rem;
+  font-weight: 700;
+}
+.plants-text p {
+  font-size: 1.4rem;
+  font-weight: regular;
+  color: rgba(0, 0, 0, 0.5);
+}
+.plants-card {
+  margin-top: 3rem;
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+.plants-card img {
+  width: 100%;
+  height: auto;
+}
+.card-title {
+  font-size: 1.375rem;
+  font-weight: medium;
+  color: #111111;
+}
+.card-price {
+  font-size: 1.375rem;
+  font-weight: bold;
+  color: #111111;
+}
+.btn-primary {
+  width: 100%;
+  border: none;
+  padding: 1rem;
+  background-color: #e95a08;
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: semibold;
 }

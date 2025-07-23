@@ -16,4 +16,7 @@
     width: 100%;
     height: auto;
   }
+  .plants-card {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
