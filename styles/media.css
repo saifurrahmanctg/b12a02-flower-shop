@@ -43,6 +43,36 @@
   .flower-text ul li {
     font-size: 1rem;
   }
+  .deals {
+    margin-top: 0;
+  }
+  .deals-text h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+  }
+  .deals-text p {
+    font-size: 1rem;
+    font-weight: regular;
+    margin: 0;
+  }
+  .deals-image {
+    margin-top: 2rem;
+    flex-direction: column;
+  }
+  .deals-left,
+  .zabo {
+    width: 100%;
+    height: auto;
+  }
+  .zabo {
+    height: 200px;
+  }
+  .zabo h4 {
+    font-size: 1.25rem;
+  }
+  .zabo .btn {
+    font-size: 1rem;
+  }
 }
 
 @media screen and (min-width: 577px) and (max-width: 992px) {
@@ -71,5 +101,35 @@
 
   .trusted-badge {
     display: none;
+  }
+  .deals {
+    margin-top: 0;
+  }
+  .deals-text h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+  }
+  .deals-text p {
+    font-size: 1rem;
+    font-weight: regular;
+    margin: 0;
+  }
+  .deals-image {
+    margin-top: 2rem;
+    flex-direction: column;
+  }
+  .deals-left,
+  .zabo {
+    width: 100%;
+    height: auto;
+  }
+  .zabo {
+    height: 200px;
+  }
+  .zabo h4 {
+    font-size: 1.25rem;
+  }
+  .zabo .btn {
+    font-size: 1rem;
   }
 }
