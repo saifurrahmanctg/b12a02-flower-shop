@@ -93,6 +93,14 @@
   .btn-subscribe {
     width: 8rem;
   }
+  .footer {
+    flex-direction: column;
+    margin-top: 50px;
+    margin-left: 20px;
+  }
+  .footer-logo {
+    width: 100%;
+  }
 }
 
 @media screen and (min-width: 577px) and (max-width: 992px) {
@@ -162,5 +170,8 @@
   }
   .join-field input {
     width: 20rem;
+  }
+  .social-icon ul {
+    flex-direction: column;
   }
 }
