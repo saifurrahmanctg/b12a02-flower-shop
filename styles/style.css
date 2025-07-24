@@ -4,6 +4,7 @@
   margin: 0;
   padding: 0;
 }
+
 h1,
 h2,
 h3,
@@ -14,12 +15,15 @@ span {
   font-family: "Noto Serif", serif;
   color: #000000;
 }
+
 span {
   color: #e95a08;
 }
+
 body {
   background-color: #f5f8ff;
 }
+
 .main,
 .footer {
   max-width: 1140px;
@@ -40,14 +44,17 @@ nav {
   margin-top: 20px;
   padding: 0 1.2rem;
 }
+
 nav img {
   width: 8.5rem;
   height: auto;
   transition: all 1.2s;
 }
+
 nav img:hover {
   transform: scale3d(1.3, 1.3, 1.3);
 }
+
 .nav-links,
 .nav-links ul {
   display: flex;
@@ -55,12 +62,14 @@ nav img:hover {
   gap: 50px;
   align-items: center;
 }
+
 .nav-links ul li a {
   text-decoration: none;
   font-size: 1rem;
   font-weight: 400;
   color: #8987a1;
 }
+
 .cart {
   display: flex;
   align-items: center;
@@ -69,6 +78,7 @@ nav img:hover {
   font-weight: 500;
   color: #000000;
 }
+
 .cart img {
   width: 1.4rem;
   height: auto;
@@ -84,13 +94,16 @@ nav img:hover {
   padding-left: 1.2rem;
   padding-right: 1.2rem;
 }
+
 .banner-text {
   width: 100%;
 }
+
 .banner-text h1 {
   font-size: 4rem;
   font-weight: 700;
 }
+
 .banner-text p {
   font-size: 1.4rem;
   font-weight: regular;
@@ -98,27 +111,32 @@ nav img:hover {
   margin-top: 1rem;
   text-align: justify;
 }
+
 .banner-image img {
   width: auto;
   height: auto;
 }
+
 /* Plant section styling*/
 
 .plants {
   margin-top: 7.5rem;
 }
+
 .plants-text {
   text-align: center;
   max-width: 900px;
   margin: 0 auto;
   padding: 0 2rem;
 }
+
 .plants-text p {
   font-size: 1.4rem;
   font-weight: regular;
   color: rgba(0, 0, 0, 0.5);
   margin: 20px 0;
 }
+
 .plants-card {
   margin-top: 4rem;
   text-align: center;
@@ -127,21 +145,25 @@ nav img:hover {
   gap: 20px;
   padding: 0 1.2rem;
 }
+
 .plants-card img {
   width: 100%;
   height: auto;
 }
+
 .card-title {
   font-size: 1.375rem;
   font-weight: medium;
   color: #111111;
 }
+
 .card-price {
   font-size: 1.375rem;
   font-weight: bold;
   color: #111111;
   margin: 10px;
 }
+
 .btn-primary {
   width: 100%;
   border: none;
@@ -161,30 +183,41 @@ nav img:hover {
   gap: 80px;
   padding: 0 1.2rem;
 }
+
 .flower-image-container {
   width: 100%;
   position: relative;
 }
+
 .flower-image {
   width: 100%;
   height: 100%;
 }
+
 .trusted-badge {
-  width: 20rem;
+  width: 18rem;
   height: auto;
+  filter: drop-shadow(-4px 10px 4px 0px rgba(0, 0, 0, 0.25));
   position: absolute;
   top: -120px;
   right: -120px;
   transition: all 1.5s;
 }
+
 .trusted-badge:hover {
-  transform: scale3d(1.1, 1.1, 1.1) rotate(360deg);
+  transform: scale3d(1.2, 1.2, 1.2) rotate(360deg);
 }
+
 .flower-text {
   width: auto;
   padding: 0 1rem;
   align-content: center;
 }
+
+.flower-text ul {
+  padding-left: 24px;
+}
+
 .flower-text ul li {
   font-size: 1.4rem;
   font-weight: regular;
@@ -197,18 +230,21 @@ nav img:hover {
 .deals {
   margin-top: 7.5rem;
 }
+
 .deals-text {
   text-align: center;
   max-width: 900px;
   margin: 0 auto;
   padding: 0 1.2rem;
 }
+
 .deals-text p {
   font-size: 1.4rem;
   font-weight: regular;
   color: rgba(0, 0, 0, 0.5);
   margin: 20px 0;
 }
+
 .deals-image {
   display: flex;
   justify-content: space-between;
@@ -216,55 +252,64 @@ nav img:hover {
   padding: 0 1.2rem;
   margin-top: 4rem;
 }
+
 .deals-left {
   width: 40%;
 }
+
 .bloom {
-  background-image: url(../images/deal-bloom.png);
+  background: linear-gradient(rgba(0, 0, 0, 0.5)), url(../images/deal-bloom.png);
   margin-bottom: 20px;
   height: 200px;
 }
+
 .ana {
-  background-image: url(../images/deal-ana.png);
+  background: linear-gradient(rgba(0, 0, 0, 0.5)), url(../images/deal-ana.png);
   height: 200px;
 }
+
 .zabo {
-  background-image: url(../images/deal-zabo.png);
+  background: linear-gradient(rgba(0, 0, 0, 0.5)), url(../images/deal-zabo.png);
   height: auto;
 }
+
 .bloom,
 .ana,
 .zabo {
   background-size: cover;
   background-position: center;
   width: 100%;
-  border-radius: 22px;
+  border-radius: 20px;
   text-align: center;
   align-content: center;
 }
+
 .deals-left h4 {
   font-size: 1.25rem;
   color: #ffffff;
-  margin-bottom: 0;
+  margin-bottom: 10px;
 }
+
 .deals-left .btn {
   background: none;
   color: #ffffff;
-  font-size: 1rem;
+  font-size: 1.2rem;
   border: none;
-  border-bottom: 3px solid white;
+  border-bottom: 2px solid white;
 }
+
 .zabo h4 {
   font-size: 2.5rem;
   color: #ffffff;
-  margin-bottom: 0;
+  margin-bottom: 10px;
 }
+
 .zabo .btn {
   background: none;
   color: #ffffff;
   font-size: 1.8rem;
   border: none;
-  border-bottom: 3px solid white;
+  border-bottom: 2px solid white;
 }
 
 /* Join section styling */
@@ -276,24 +321,29 @@ nav img:hover {
   align-content: center;
   margin-top: 7.5rem;
 }
+
 .join-title h3 {
   font-size: 3.125rem;
   font-weight: 700;
   color: white;
   margin-bottom: 20px;
 }
+
 fieldset {
   border: none;
   width: 100%;
 }
+
 .join-field input {
-  width: 40.5rem;
+  width: 40rem;
   height: 3.2rem;
   font-size: 1.2rem;
   text-align: left;
   font-weight: 500;
+  border: none;
   padding-left: 10px;
 }
+
 .btn-subscribe {
   background-color: #e95a08;
   width: 12rem;
@@ -315,34 +365,42 @@ fieldset {
   margin-bottom: 3.5rem;
   padding: 0 1.2rem;
 }
+
 .footer-logo {
   width: 320px;
 }
+
 .footer-logo img {
   width: 40%;
   margin-bottom: 20px;
   transition: all 1.2s;
 }
+
 .footer-logo img:hover {
   transform: scale3d(1.3, 1.3, 1.3);
 }
+
 .footer-logo p {
   font-size: 1.4rem;
   font-weight: regular;
   color: rgba(0, 0, 0, 0.5);
 }
+
 .footer-links-1 ul li,
 .footer-links-2 ul li {
   margin-top: 30px;
 }
+
 .footer li {
   list-style: none;
   font-size: 1.2rem;
   color: #6b7280;
 }
+
 .social-icon {
   margin-top: 40px;
 }
+
 .social-icon ul {
   display: flex;
   gap: 20px;
