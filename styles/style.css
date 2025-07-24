@@ -27,6 +27,11 @@ body {
   padding: 0;
 }
 
+h2 {
+  font-size: 3.2rem;
+  font-weight: 700;
+}
+
 /* Header styling */
 nav {
   display: flex;
@@ -108,17 +113,14 @@ nav img:hover {
   margin: 0 auto;
   padding: 0 2rem;
 }
-.plants-text h2 {
-  font-size: 3.125rem;
-  font-weight: 700;
-}
 .plants-text p {
   font-size: 1.4rem;
   font-weight: regular;
   color: rgba(0, 0, 0, 0.5);
+  margin: 20px 0;
 }
 .plants-card {
-  margin-top: 3rem;
+  margin-top: 4rem;
   text-align: center;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -156,7 +158,7 @@ nav img:hover {
   display: flex;
   flex: 1;
   justify-content: space-between;
-  gap: 60px;
+  gap: 80px;
   padding: 0 1.2rem;
 }
 .flower-image-container {
@@ -179,14 +181,9 @@ nav img:hover {
   transform: scale3d(1.1, 1.1, 1.1) rotate(360deg);
 }
 .flower-text {
+  width: auto;
   padding: 0 1rem;
   align-content: center;
-}
-.flower-text h3 {
-  font-size: 3.125rem;
-  font-weight: 700;
-  margin-bottom: 0.5rem;
-  padding-left: 0;
 }
 .flower-text ul li {
   font-size: 1.4rem;
@@ -198,7 +195,7 @@ nav img:hover {
 
 /* Deals section styling */
 .deals {
-  margin-top: 8.4rem;
+  margin-top: 7.5rem;
 }
 .deals-text {
   text-align: center;
@@ -206,24 +203,21 @@ nav img:hover {
   margin: 0 auto;
   padding: 0 1.2rem;
 }
-.deals-text h2 {
-  font-size: 3.125rem;
-  font-weight: 700;
-}
 .deals-text p {
   font-size: 1.4rem;
   font-weight: regular;
   color: rgba(0, 0, 0, 0.5);
+  margin: 20px 0;
 }
 .deals-image {
   display: flex;
   justify-content: space-between;
   gap: 20px;
   padding: 0 1.2rem;
-  margin-top: 7.5rem;
+  margin-top: 4rem;
 }
 .deals-left {
-  width: 33%;
+  width: 40%;
 }
 .bloom {
   background-image: url(../images/deal-bloom.png);
@@ -282,7 +276,7 @@ nav img:hover {
   align-content: center;
   margin-top: 7.5rem;
 }
-.join-title h2 {
+.join-title h3 {
   font-size: 3.125rem;
   font-weight: 700;
   color: white;
@@ -325,7 +319,7 @@ fieldset {
   width: 320px;
 }
 .footer-logo img {
-  width: 50%;
+  width: 40%;
   margin-bottom: 20px;
   transition: all 1.2s;
 }

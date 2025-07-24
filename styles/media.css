@@ -1,5 +1,16 @@
 /*Media Queries for responsive design8?*/
 @media screen and (max-width: 576px) {
+  h1 {
+    font-size: 1rem;
+    font-weight: 700;
+    margin-top: 1rem;
+  }
+  h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
   .nav-links ul {
     display: none;
   }
@@ -22,10 +33,6 @@
   .plants {
     margin-top: 2rem;
   }
-  .plants-text h2 {
-    font-size: 2rem;
-    margin-bottom: 1rem;
-  }
   .plants-card {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -41,21 +48,14 @@
   .trusted-badge {
     display: none;
   }
-  .flower-text h3 {
-    font-size: 2rem;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+  .flower-text ul {
+    padding-left: 1.2rem;
   }
   .flower-text ul li {
     font-size: 1rem;
   }
   .deals {
     margin-top: 2rem;
-  }
-  .deals-text h2 {
-    font-size: 2rem;
-    font-weight: 700;
-    margin-bottom: 1rem;
   }
   .deals-text p {
     font-size: 1rem;
@@ -84,7 +84,7 @@
     height: 300px;
     margin-top: 50px;
   }
-  .join-title h2 {
+  .join-title h3 {
     font-size: 1.5rem;
   }
   .join-field input {
@@ -104,6 +104,19 @@
 }
 
 @media screen and (min-width: 577px) and (max-width: 992px) {
+  .banner {
+    margin: 0 1.2rem;
+  }
+  .banner-text h1 {
+    font-size: 2.4rem;
+    font-weight: 700;
+    margin-top: 1rem;
+  }
+  h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin: 1rem auto;
+  }
   .nav-links ul {
     gap: 20px;
   }
@@ -126,17 +139,14 @@
     gap: 0;
     margin-top: 4rem;
   }
-
+  .flower-text ul {
+    padding-left: 1.2rem;
+  }
   .trusted-badge {
     display: none;
   }
   .deals {
     margin-top: 2rem;
-  }
-  .deals-text h2 {
-    font-size: 2.5rem;
-    font-weight: 700;
-    margin-bottom: 1rem;
   }
   .deals-text p {
     font-size: 1rem;
@@ -165,7 +175,7 @@
     height: 360px;
     margin-top: 60px;
   }
-  .join-title h2 {
+  .join-title h3 {
     font-size: 2rem;
   }
   .join-field input {
