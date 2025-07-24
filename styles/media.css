@@ -3,11 +3,52 @@
   .nav-links ul {
     display: none;
   }
-
-  .nav-links ul li {
-    margin: 10px 0;
+  .banner {
+    flex-direction: column-reverse;
+    padding: 0;
   }
+  .banner-text h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+  }
+  .banner-text p {
+    font-size: 1rem;
+    font-weight: regular;
+  }
+  .banner-image img {
+    width: 100%;
+    height: auto;
+  }
+  .plants {
+    margin-top: 3rem;
+  }
+  .plants-card {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .flower {
+    flex-direction: column;
+    gap: 0;
+    margin-top: 3rem;
+  }
+  .flower-image img {
+    width: 100%;
+    height: auto;
+  }
+  .trusted-badge {
+    display: none;
+  }
+  .flower-text h3 {
+    font-size: 2rem;
+  }
+  .flower-text ul li {
+    font-size: 1rem;
+  }
+}
 
+@media screen and (min-width: 577px) and (max-width: 992px) {
+  .nav-links ul {
+    gap: 20px;
+  }
   .banner {
     flex-direction: column-reverse;
     padding: 0;
@@ -16,7 +57,19 @@
     width: 100%;
     height: auto;
   }
+  .plants {
+    margin-top: 3rem;
+  }
   .plants-card {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .flower {
+    flex-direction: column;
+    gap: 0;
+    margin-top: 4rem;
+  }
+
+  .trusted-badge {
+    display: none;
   }
 }
